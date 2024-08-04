@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="div_flex">
+        <form action="/chesh" method="post" class=" forms">
+            <textarea name="chesh" id="chesh" type="text" class="textareas">
+                <%= chesh %>
+            </textarea>
+            <button type="submit" class="btn">></button>
+        </form>
+        <form action="/json" method="post" class=" forms">
+            <textarea name="json" type="json" id="json" class="textareas">
+                <%= json %>
+            </textarea>
+        
+            <button type="submit" class="btn">j</button>
+        </form>
+    </div>
+</body>
+</html>
